@@ -56,3 +56,10 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Bistro biss is sitting on the port ${port}`);
 });
+
+/**
+ * ------------------
+ *     NAMING CONVENTION
+ * ------------------
+ * app.get('')
+ *  **/
