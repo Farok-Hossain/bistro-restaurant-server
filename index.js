@@ -61,5 +61,7 @@ app.listen(port, () => {
  * ------------------
  *     NAMING CONVENTION
  * ------------------
- * app.get('')
+ * app.get('/users')
+ * app.get('/users/:id')
+ * app.post('/users')
  *  **/
