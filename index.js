@@ -4,6 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 const port = process.env.PORT | 5000;
 const { ObjectId } = require("mongodb");
+const jwt = require("jsonwebtoken");
 
 // middleware
 app.use(cors());
