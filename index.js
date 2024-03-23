@@ -283,6 +283,9 @@ async function run() {
      * ---------------
      * NON-Effiecient way
      * ---------------
+     * 1. load all the payments
+     * 2. for every mneuItems (which is an array), go find the item from menuCollection
+     * 3. for every item in the menu collection that you found from a payment entry (document)
      */
 
     // Send a ping to confirm a successful connection
