@@ -289,7 +289,7 @@ async function run() {
      */
 
     // using aggregate pipeline
-    app.get("/order-stats", verifyToken, verifyAdmin, async (req, res) => {
+    app.get("/order-stats", async (req, res) => {
       const result = await paymentCollection
         .aggregate([
           {
